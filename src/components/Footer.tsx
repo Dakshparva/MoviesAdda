@@ -7,11 +7,10 @@ const Footer: React.FC = () => {
     <footer className="bg-gray-900 text-gray-300">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Brand */}
           <div>
             <Link to="/" className="flex items-center space-x-2 text-xl font-bold text-white mb-4">
               <Film className="w-6 h-6 text-red-600" />
-              <span>WatchTonight</span>
+              <span>MoviesAdda</span>
             </Link>
             <p className="text-gray-400 mb-4">
               Discover your next favorite movie with our personalized recommendations.
@@ -29,7 +28,6 @@ const Footer: React.FC = () => {
             </div>
           </div>
           
-          {/* Navigation */}
           <div>
             <h3 className="text-white font-semibold text-lg mb-4">Explore</h3>
             <ul className="space-y-2">
@@ -56,7 +54,6 @@ const Footer: React.FC = () => {
             </ul>
           </div>
           
-          {/* Information */}
           <div>
             <h3 className="text-white font-semibold text-lg mb-4">Information</h3>
             <ul className="space-y-2">
@@ -90,7 +87,7 @@ const Footer: React.FC = () => {
             All movie data and images are provided by The Movie Database.
           </p>
           <p className="mt-2">
-            © {new Date().getFullYear()} WatchTonight. All rights reserved.
+            © {new Date().getFullYear()} MoviesAdda. All rights reserved.
           </p>
         </div>
       </div>
